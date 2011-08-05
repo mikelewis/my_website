@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+		$(".logo_img").fadeTo("slow", 0.3);
+		$(".logo_img").hover(function(){
+				$(this).fadeTo("slow", 1.0);
+			},function(){
+				$(this).fadeTo("slow", 0.3);
+			});
+		});
+
+
+</script>
+
+<style type="text/css">
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #333;
+	margin: 0px;
+}
+
+#content {
+	position: absolute;
+	overflow: visible;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+}
+
+#goodstuff{
+	margin-left: -209px;
+	position: absolute;
+	visibility: visible;
+	left: 50%;
+	top: -185px;
+	width: 501px;
+	height: 70px;
+}
+
+a{
+	font-weight: bold; font-size: 15px;
+}
+
+
+a:link {text-decoration: none; color: #2D6B92;}
+a:visited {text-decoration: none; color: #2D6B92;}
+a:active {text-decoration: none;}
+a:hover {underline; color: #333;}
+
+
+#list_of{ margin-left: -39px;}
+
+img { border: 0; }
+
+#logos{margin-left: 25%;}
+
+ul{ list-style-type: none; padding-bottom: 3px;}
+li{padding-bottom: 3px;}
+#interests{ margin-left: -24px;}
+
+
+</style>
+<title>Mike Lewis</title>
+
+</head>
+<body> 
+<div id="content">
+	<div id="goodstuff">
+
+		<div id="txt">
+			<h2>Mike Lewis</h2>
+			<ul id="list_of">
+				<li>Software Engineering Intern at Coming Soon :)</li>
+				<li><a href="http://cs.rit.edu">Computer Science Student</a> from <a href="http://rit.edu">Rochester Institute of Technology</a></li>
+				<li>Member of <a href="http://csh.rit.edu/">Computer Science House</a></li>
+				<li>Interested in:</li>
+				<ul id="interests">
+					<li>Backend Web Technologies</li>
+					<li>Data Mining</li>
+					<li>Database Optimization</li>
+					<li>Programming Language Theory</li>
+					<li>Functional Programming</li>
+				</ul>
+			</ul>
+		</div>
+
+		<div id="logos">
+			<a href="http://www.linkedin.com/in/mikkelewis"><img src="linkedin.png" alt="LinkedIn" class="logo_img" /></a>
+			<a href="http://stackoverflow.com/users/656769/mike-lewis"><img src="stackoverflow.png" alt="StackOverflow" class="logo_img"/></a>
+			<a href="https://github.com/mikelewis"><img src="github-logo.png" alt="GitHub" class="logo_img" /></a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
