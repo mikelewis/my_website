@@ -7,11 +7,11 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-          $(".logo_img").fadeTo("slow", 0.3);
+          $(".logo_img").stop().fadeTo("slow", 0.3);
           $(".logo_img").hover(function(){
-            $(this).fadeTo("slow", 1.0);
+            $(this).stop().fadeTo("slow", 1.0);
             },function(){
-            $(this).fadeTo("slow", 0.3);
+            $(this).stop().fadeTo("slow", 0.3);
             });
           });
 
